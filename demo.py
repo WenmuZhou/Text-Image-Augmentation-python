@@ -3,7 +3,7 @@
 
 import cv2
 import imageio
-from augment import distort, stretch, perspective
+from .augment import distort, stretch, perspective
 
 
 def create_gif(image_list, gif_name, duration=0.1):
